@@ -1,62 +1,123 @@
-<!--
-
-    Liam
-    index.html
-    
+<!doctype html>
+<!-- 
+    Liam Davis
+    4/1/2024
 -->
-
-<!DOCTYPE html>
 <html lang="en">
-<head>
-<style>
-    footer {
-        background-color: gray;
-    }
-</style>
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Efficiency Repair</title>
+  <head>
+    <meta name="description" content="Wild Rescues is a local nonprofit organization
+    dedicated to helping injured, neglected, or orphaned wildlife.">
     <meta charset="utf-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wildlife Rescue | Wild Rescues</title>
+    <!-- Favicon -->
+    <link rel="shortcut-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/android-chrome-192.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </head>
 
-<body>
+  <body>
+    <!-- Bootstrap Navigation Bar -->
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top"></nav>
+        <a class="navbar-brand" href="index.html">Wild Rescues</a>
 
-    <header>
-        <h1>Welcome to Efficiency Repair</h1>
-        <a href="index.html"> <img src="images/efficient-repair-logo.png">
-    </header>
+        <!-- Hamburger menu icon -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria label="Toggle-navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <nav>
-
-        <p>Home &nbsp; &#9632; &nbsp;
-        <a href="./about.html">About Us</a> &nbsp; &#9632; &nbsp;
-        <a href="./services.html">Services</a> &nbsp; &#9632; &nbsp;
-        <a href="./apply.html">Apply Now</a> &nbsp; &#9632; &nbsp;
-        <a href="./contact.html">Contact Us</a> &nbsp; &#9632; &nbsp;</p>
-        <a href="./index.html">index.html</a> &nbsp; &#9632; &nbsp;
-        
-
-        <div>
+        <!-- Navbar Links -->
+        <nav class="bg-brown">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#.html">Partnership</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#.html">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#.html">Contact</a>
+            </li>
+          </ul>
         </div>
-       
-    </nav>
+      </nav>
+      <!-- Header and Hero Image -->
+      <header class="hero">
+        <a class="jumbotron jumbotron-fluid bg-brown"></a>
+          <div class="welcome">
+          <div class="container">
+            <h1 class="display-1 font-weight-bolder">Wild Rescues</h1>
+            <p class="lead font-weight-bold">Rescue. Rehabilitate. Release</p>
+            <a href="#.html" role="button" class="btn btn-outline-secondary
+            btn-lg text-white">Partner with us</a>
+          </div>
+          </div>
+      </header>
 
-    <main>
+      <!-- Main Content Area -->
+      <main class="container-fluid mt-5">
+        <div class="row">
+          <div class="col-sm-4">
+            <h1>About Us</h1>
+            <p class="lead">We are a nonprofit organization dedicated to helping
+              injured wildlife.</p>
+            <figure>
+              <a href="#.html"><img src="images/baby-raccoons.jpg" 
+              alt="hands holding three baby raccoons" class="img-fluid
+              rounded"></a>
+            </figure>
+          </div>
+          <div class="col-sm-4">
+            <h1>Partnership</h1>
+            <p class="lead">Partner with us. Become a member or a sponsor.
+              We also need volunteers.</p>
+            <figure>
+              <a href="#.html"><img src="images/blind-deer.jpg"
+              alt="blind deer" class="img-fluid-rounded"></a>
+            </figure>
+          </div>
+          <div class="col-sm-4">
+            <h1>Gallery</h1>
+            <p class="lead">We help many types of wildlife. Meet our
+              rescued friends.</p>
+            <figure>
+              <a href="#.html"><img src="images/tortoise.jpg"
+              alt="tortoise eating vegetation" class="img-fluid-
+              rounded"></a>
+            </figure>
+          </div>
+        </div>
+      </main>
 
-        <p>Welcome to Efficiency Repair, our goal is to provide strong security that will last
-        a lifetime. If there is ever an accident occuring in your home, we're here to help fix it.
-        We provide many different types of glass, suitable for your home or building. We also have
-        flexible hours.</p>
-                <!-- Hero Image -->
-                <div id="hero">
-                    <img src="images/hero-image.jpg" alt="window on the side of a house">
-                </div>
-    </main>
+      <!-- Footer -->
+      <footer class="jumbotron-fluid text-center p-5 bg-brown">
+        <div class="container text-white">
+          <p>&copy; Copyright 2021. All rights reserved.</p>
+          <p><a href="mailto:contact@wildrescues.net" class="text-
+          white">contact@wildrescues.net</a></p>
+          <a href="https://www.facebook.com" target="_blank"><img
+          src="images/facebook-logo.png" alt="white Facebook logo"
+          class="pr-4"></a>
+          <a href="https://www.twitter.com" target="_blank"><img src="images/twitter-logo.png" 
+            alt="white Twitter logo"></a>
+        </div>
 
-    <footer>
-        <p>&copy; Copyright 2021. All rights reserved.</p>
-    </footer>
+      </footer>
 
-</body>
-
+          
+  <script src="scripts/script.js"></script>
+  </body>
 </html>
