@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Webpage Design and Development: Chapter3</title>
+</head>
+
+
+<header>
+    <h1>Chapter 3</h1>
+</header>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./chapter1.html">Chapter 1</a></li>
+            <li><a href="./chapter2.html">Chapter 2</a></li>
+            <li><a href="./chapter3.html">Chapter 3</a></li>
+            <li><a href="./chapter4.html">Chapter 4</a></li>
+            <li><a href="./chapter5.html">Chapter 5</a></li>
+            <li><a href="./chapter6.html">Chapter 6</a></li>
+        
+        </ul>
+
+    </nav>
+
+<body>
+
+    <!--Main area for main page content-->
+
+    <main>  
+    </main>                 
+
+    <footer>
+    </footer>
+
+</body>
+
+</html>
