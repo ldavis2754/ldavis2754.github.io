@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<title>Wild Rescues</title>
+<meta charset="utf-8">
+
+<body>
+
+    <!-- Mobile Nav -->
+    <nav class="mobile-nav">
+        <div id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="partnership.html">Partnership</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="faqs.html">FAQs</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <a class="nav-icon" onclick="hamburger()">
+            <div id="icon">&#9776;</div>
+        </a>
+
+    </nav>
+
+    <header>
+    
+    <p>Wild Rescues Website Outline</p>
+    <p>Completed by: Liam Davis</p>
+
+    </header>
+
+    <nav>
+        <a class="tab-desk>
+    </nav>
+
+    <main>
+    
+    <p>1) Home Page: The home page will include information about the
+        purpose of Wild Rescues. It will also include the mission statement,
+        which is to rescue, rehabilitate, and release wildlife back into
+        their natural environment.</p>
+
+    <p>2) About Us Page: The about us page will provide information about
+        the types of animals we rescue and how we help rehabilitate them.</p>
+
+    <p>3) Partnership Page: The partnership page will provide information
+        about volunteer opportunities, ways to donate, and sponsorship
+        opportunities.</p>
+
+    <p>4) Gallery Page: The gallery page will include several photos of our
+        most memorable wildlife rescue friends.</p>
+
+    <p>5) FAQs Page: The FAQs page will provide visitors with many
+        frequently asked questions and answers.</p>
+
+    <p>6) Contact Us Page: The contact us page will include the
+        organization's contact information and provide a form to schedule a
+        visit.</p>
+
+    </main>
+
+    <footer>
+
+    <a href="contact@wildrescues.net">Contact</a>
+
+    <a href="about.html">About Us</a>
+
+    </footer>
+
+    <script src="script/script.js"></script>
+    
+</body>
+
+</html>
