@@ -1,0 +1,53 @@
+/*
+    Liam Davis
+    styles.css
+    3/12/2024
+*/
+
+/* CSS Reset */
+
+body, header, nav, main, footer
+
+/* Style rules for header content */
+
+h1 {
+    text-align: center;
+}
+
+/* Style rules for navigation area */
+
+nav {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Style rules for main content */
+
+main {
+    overflow: auto;
+}
+
+#css1 {
+    width: 100%;
+}
+
+#css2 {
+    width: 100%;
+}
+
+#css3 {
+    width: 100%;
+}
+
+.anchor {
+    font-color: #47476b;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Style rules for footer content */
+
+footer {
+    float: clear left;
+}
