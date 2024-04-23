@@ -1,62 +1,111 @@
-<!--
-
-    Liam
-    index.html
-    
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<style>
-    footer {
-        background-color: gray;
-    }
-</style>
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Efficiency Repair</title>
+    <title></title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <meta name="viewport" width="device-width" initial scale="1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/efficiencyrepairfavicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
 </head>
-
 <body>
+
+    <!-- This is Efficiency Repair -->
 
     <header>
         <h1>Welcome to Efficiency Repair</h1>
-        <a href="index.html"> <img src="images/efficient-repair-logo.png">
+        <a href="index.html"> <img src="images/efficiency-repair-logo.png">
     </header>
 
     <nav>
-
-        <p>Home &nbsp; &#9632; &nbsp;
-        <a href="./about.html">About Us</a> &nbsp; &#9632; &nbsp;
-        <a href="./services.html">Services</a> &nbsp; &#9632; &nbsp;
-        <a href="./apply.html">Apply Now</a> &nbsp; &#9632; &nbsp;
-        <a href="./contact.html">Contact Us</a> &nbsp; &#9632; &nbsp;</p>
-        <a href="./index.html">index.html</a> &nbsp; &#9632; &nbsp;
-        
-
-        <div>
-        </div>
-       
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li>
+                <a href="#">Services</a>
+                <style>
+                    .dropdown {
+                        text-align: center;
+                    }
+                </style>
+                <ul class="dropdown">
+                <li><a href="windows.html">Windows</a></li>
+                <li><a href="carwindowreplacement.html">Car Windows</a></li>
+                <li><a href="glassinstallation.html">Glass Installation</a></li>
+                <li><a href="emergencyglass.html">Emergency Glass</a></li>
+                </ul>
+            </li>
+            <li><a href="apply.html">Apply Now</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
     </nav>
 
-    <main>
+<!-- Hero Image -->
+<div id="hero">
+    <img src="images/window on a house.jpg" alt="window on the side of a house">
+</div>
 
-        <p>Welcome to Efficiency Repair, our goal is to provide strong security that will last
-        a lifetime. If there is ever an accident occuring in your home, we're here to help fix it.
-        We provide many different types of glass, suitable for your home or building. We also have
-        flexible hours.</p>
-                <!-- Hero Image -->
-                <div id="hero">
-                    <img src="images/hero-image.jpg" alt="window on the side of a house">
-                </div>
-    </main>
+<main>
+    <p>Welcome to Efficiency Repair, our goal is to provide strong security that will last
+    a lifetime. If there is ever an accident occuring in your home, we're here to help fix it.
+    We provide many different types of glass, suitable for your home or building. We also have
+    flexible hours.</p>
 
-    <footer>
-        <p>&copy; Copyright 2021. All rights reserved.</p>
-    </footer>
+    <h3>Latest News!</h3>
+    <figure>
+        <img src="images/glass-greenhouse.jpg" alt="green house">
+        <figcaption>This family helped the environment by making a greenhouse with old glass.</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/pane-decor.jpg" alt="fancy window">
+        <figcaption>This person made a fancy window with decorations.</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/glass-picture-frame.jpg" alt="glass frame">
+        <figcaption>This person made a picture frame that is made out of their old window
+            glass.</figcaption>
+    </figure>
+
+    <h3>What we do</h3>
+    <figure>
+        <img src="images/window-replace.jpg" alt="new-window">
+        <figcaption>We repair windows for your home, car, and building.</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/employees.jpg" alt="employees standing together">
+        <figcaption>Our employees are trained professionals that you can rely on!</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/people.jpg" alt="people standing together">
+        <figcaption>We help many local residents with their windows.</figcaption>
+    </figure>
+
+    <p>Efficiency Repair Locations Near Me</p> <img src="images/location.png" alt="location-icon">
+    
+    <button type="button">Apply now</button>
+</main>
+
+<hr>
+
+<footer>
+    <div class="copyright">
+        <p>Liam Davis</p>
+        <p>&copy; Copyright 2024. All Rights Reserved.</p>         
+    </div>
+    <div class="social">
+        <a href="https://www.facebook.com" target="_blank"><img src="images/facebook logo.jpg" alt="Facebook logo"></a>
+        <a href="https://www.twitter.com" target="_blank"><img src="images/twitter logo.jpg" alt="Twitter logo"></a>
+    </div>
+</footer>
 
 </body>
 
+</html>
+
+</body>
 </html>
