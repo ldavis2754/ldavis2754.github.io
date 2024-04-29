@@ -1,43 +1,80 @@
-<!--
-
-    Liam Davis
-    faqs.html
-    3/14/2024
-
--->
-
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="utf-8">
 <head>
-    <title>Wild Rescues: FAQs</title>
+    <title>FAQs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" width="device-width" initial scale="1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/efficiencyrepairfavicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
 </head>
 
 <body>
-    
+
     <header>
+        <h1>Frequently Asked Questions</h1>
     </header>
 
     <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li>
+                <a href="#">Services</a>
+                <style>
+                    .dropdown {
+                        text-align: center;
+                    }
+                </style>
+                <ul class="dropdown">
+                <li><a href="windows.html">Windows</a></li>
+                <li><a href="carwindowreplacement.html">Car Windows</a></li>
+                <li><a href="glassinstallation.html">Glass Installation</a></li>
+                <li><a href="emergencyglass.html">Emergency Glass</a></li>
+                </ul>
+            </li>
+            <li><a href="apply.html">Apply Now</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
     </nav>
 
     <main>
-        <div id="questions">
-            <p onclick="ans1()">How can I determine if a baby animal is an
-            orphan?</p>
-            <p onclick="ans2()">How can I tell if an animal has rabies?</p>"
-            <p onclick="ans3()">I found a baby bird that fell from its nest. Will
-            the parents orphan it if I touch it?</p>
-            <p onclick="ans4()">How can I volunteer?</p>
-        </div>
+        <p>Is our warranty worth the cost?
+            Our repairs are sure to be worth your estimate.</p>
 
-        <div id="answer">
-            <h2>Answer:</h2>
-            <p></p>
-        </div>
+        <p>Do you offer mobile payment?
+            We offer mobile payment, as well as android and apple pay.</p>
+
+        <p>How much do large window repairs cost?
+            They usually cost around $200-$1,000, depending on the type
+            of window.</p>
+        <form>
+            <fieldset>
+                <legend>Additional Questions</legend>
+                <label for="questions">Questions</label>
+                <textarea id="questions" name="questions" rows="5"
+                cols="35"></textarea>
+            </fieldset>
+
+            <input type="submit" id="submit" value="Submit" class="btn">
+            </fieldset>
+        </form>
     </main>
 
+    <hr>
+
     <footer>
+        <p>For more information visit:</p>
+        <a href="http://www.efficiencyrepair.com">Efficiency Repair</a>
+        <div class="copyright">
+            <p>Liam Davis</p>
+            <p>&copy; Copyright 2024. All Rights Reserved.</p>         
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook logo.jpg" alt="Facebook logo"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="images/twitter logo.jpg" alt="Twitter logo"></a>
+        </div>
     </footer>
 
 </body>
