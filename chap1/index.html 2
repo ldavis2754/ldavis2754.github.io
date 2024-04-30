@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<<<<<<< HEAD
+<!-- 
+    
+    Liam Davis
+    index.html
+    3/12/2024 
+    
+-->
+=======
+<!-- Liam Davis, index.html, January 31, 2024 -->
+>>>>>>> 9fe76c6f5e00bc8f31821d7fead8399471d01c9e
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+    <style>
+    body{margin: 0;}
+    header{background-color:rgb(238, 234, 226); text-align: center;} 
+       
+    .s_name{
+        margin-bottom: 0;
+        line-height: 150px;
+        letter-spacing: 3px;
+        font-size: 7em;
+    }
+    .s_tag{
+        margin-top: -25px;
+        letter-spacing: 2px;
+        font-size: 1.5em;
+    }
+    
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>class="s_name">STUDENT NAME</h1>
+        <p>class="s_tag">Web Programmer {githubldavis254id}</p>
+    </header>
+    
+
+
+</body>
+</html>
